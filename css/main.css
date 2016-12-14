@@ -80,16 +80,8 @@ body {
  * -
  */
 
-a, a:visited {
-	color: #0087cc;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-a:hover, a:focus {
-	color: #ff7b29;
+a, a:visited ,a:hover, a:active{
+	color:inherit;
 }
 
 /**
@@ -937,6 +929,9 @@ a.menu-toggle {
 	transition: all 0.3s ease-in-out;
 }
 .main-navigation li.highlight a {
+	color: #05bca9;
+}
+.main-navigation li.highlight.with-sep a {
 	color: #05bca9;
 }
 .main-navigation li.with-sep a {
